@@ -1,4 +1,4 @@
-## MacBook Development Environment Setups
+## MacBook Development Environment Setups (OS Catalina : 10.15 )
 **Primary Installation Steps**
 
 *Xcode tools*: 
@@ -13,8 +13,12 @@
 basic command for installing softwares via homebrew package manager: 
 
 * `brew install [package_name]`
-
 * `brew uninstall [package_name]` for uninstalling purpose`
+* `echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc` adding brew to environment path
+* `brew update` for updating brew packages to latest version
+* `brew info [package_name]` information on the pakages of your interest
+* `brew list` or `brew list | grep [pakage_name]` for listing/finding available pakages under `brew`
+
 
 *CASK*:
 
@@ -26,6 +30,18 @@ Basic steps for CASK usages -
 * `brew search [package_name]`
 * `brew cask update` for updating packages
 * `brew cask help` for checking advance option for cask
+
+*PYTHON*
+`pyenv` is a Open-Source Package Manager for python version control in a single system. Setting up python using `pyenv` in very easy and effective. This will not imapct system python version. You can find the project [here](https://github.com/pyenv/pyenv) on GitHub.
+Basic installation steps are - 
+
+*`brew install pyenv` 
+* `pyenv` should print current version `1.2.20` *(as of today)*
+* `pyenv install --list` or `pyenv install -list | grep -ow 3.8.5` just to check if latest version of python [release](https://www.python.org/downloads/mac-osx/) is available with `pyenv`
+* `pyenv install [version_name]` e.g. `3.8.5`
+* Finally check available version(s) with `pyenv` by `pyenv versions`
+
+To know more about `pyenv` please refer [here](https://realpython.com/intro-to-pyenv/#using-pyenv-to-install-python)
 
 *Other Utilities*
 
@@ -44,4 +60,7 @@ to install `speedtest` - `brew install speedtest-cli`
 
 1. https://apple.stackexchange.com/questions/125468/what-is-the-difference-between-brew-and-brew-cask
 2. https://www.youtube.com/watch?v=Ym2pxzWpTNw&ab_channel=SnazzyLabs
+3. https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-on-your-mac-using-homebrew/
+4. https://www.chrisjmendez.com/2016/01/10/installing-homebrew-on-mac-os-x/
+5. https://realpython.com/intro-to-pyenv/#using-pyenv-to-install-python
 
