@@ -29,7 +29,7 @@ Basic steps for CASK usages -
 
 *Other Utilities*
 
-If you are a [Linux](https://www.linux.org/), you must have used `htop` for inspecting CPU usages. Well you can use the same in Mac as well.
+If you are a [Linux](https://www.linux.org/) user, you must have used `htop` for inspecting CPU usages. Well you can use the same in Mac as well.
 
 to install `htop` - `brew install htop`
 `run` by `sudo htop` as this application will need to access hardware info from the kernals 
