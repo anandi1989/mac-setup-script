@@ -32,6 +32,7 @@ Basic steps for CASK usages -
 * `brew cask help` for checking advance option for cask
 
 *PYTHON*
+
 `pyenv` is a Open-Source Package Manager for python version control in a single system. Setting up python using `pyenv` in very easy and effective. This will not imapct system python version. You can find the project [here](https://github.com/pyenv/pyenv) on GitHub.
 Basic installation steps are - 
 
@@ -42,6 +43,14 @@ Basic installation steps are -
 * Finally check available version(s) with `pyenv` by `pyenv versions`
 
 To know more about `pyenv` please refer [here](https://realpython.com/intro-to-pyenv/#using-pyenv-to-install-python)
+
+Next step after installing python with `pyenv` is to install another popular package manager `pipenv`. It is a package manager for handling python libraries 
+
+Basic installation can be done by - 
+* `brew install pipenv`
+* `pipenv -version` should return latest version `2020.8.13`. This should also install lastest `python3` to mac by default and `pip3`
+
+To know more please refer [here](https://pipenv-fork.readthedocs.io/en/latest/)
 
 *Other Utilities*
 
@@ -63,4 +72,5 @@ to install `speedtest` - `brew install speedtest-cli`
 3. https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-on-your-mac-using-homebrew/
 4. https://www.chrisjmendez.com/2016/01/10/installing-homebrew-on-mac-os-x/
 5. https://realpython.com/intro-to-pyenv/#using-pyenv-to-install-python
+6. https://pipenv-fork.readthedocs.io/en/latest/
 
