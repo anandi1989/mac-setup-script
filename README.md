@@ -64,9 +64,14 @@ Another must have utility is `SPEEDTEST`. I use it all the time via browser. But
 to install `speedtest` - `brew install speedtest-cli`
 `run` by `speedtest-cli`
 
+
+Software Updates checking via commandline - 
+`softwareupdate -l`
 Updating App Store Application from command line - 
 - `brew install mas`
 - Type `mas` to check other command options available with `mas`
+
+![Command Options for `mas`](mas_options.png)
 
 
 
