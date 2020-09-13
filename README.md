@@ -66,7 +66,9 @@ to install `speedtest` - `brew install speedtest-cli`
 
 
 Software Updates checking via commandline - 
-`softwareupdate -l`
+`softwareupdate`
+![Commandline Options for updating software](software_updates.png) 
+
 Updating App Store Application from command line - 
 - `brew install mas`
 - Type `mas` to check other command options available with `mas`
@@ -83,4 +85,5 @@ Updating App Store Application from command line -
 4. https://www.chrisjmendez.com/2016/01/10/installing-homebrew-on-mac-os-x/
 5. https://realpython.com/intro-to-pyenv/#using-pyenv-to-install-python
 6. https://pipenv-fork.readthedocs.io/en/latest/
+7. https://www.applegazette.com/mac/update-mac-apps-using-terminal/
 
