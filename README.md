@@ -1,4 +1,4 @@
-## MacBook Development Environment Setups (OS Catalina : 10.15 )
+## MacBook Development Environment Setups (OS Catalina : 10.15 & Big Sur 11.1 )
 **Primary Installation Steps**
 
 *Xcode tools*: 
@@ -19,6 +19,18 @@ basic command for installing softwares via homebrew package manager:
 * `brew info [package_name]` information on the pakages of your interest
 * `brew list` or `brew list | grep [pakage_name]` for listing/finding available pakages under `brew`
 
+_NOTE_ if [HomeBrew](https://brew.sh/) installation failed try this - 
+
+
+```
+ rm -rf /usr/local/bin/brew
+ rm -rf /usr/local/share/doc/homebrew
+ rm -rf /usr/local/share/man/man1/brew.1
+ rm -rf /usr/local/share/zsh/site-functions/_brew
+ rm -rf /usr/local/etc/bash_completion.d/brew
+ rm -rf /usr/local/Homebrew
+ ```
+[Source](https://stackoverflow.com/questions/39836190/homebrew-install-failed-during-git-fetch-origin-masterrefs-remotes-origin-mas)
 
 *CASK*:
 
@@ -51,6 +63,15 @@ Basic installation can be done by -
 * `pipenv -version` should return latest version `2020.8.13`. This should also install lastest `python3` to mac by default and `pip3`
 
 To know more please refer [here](https://pipenv-fork.readthedocs.io/en/latest/)
+
+*Adding `pyenv` into the `$PATH`*
+
+```
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc[.bash_profile]
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc[.bash_profile]
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc[.bash_profile]
+
+```
 
 *Other Utilities*
 
