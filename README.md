@@ -1,4 +1,4 @@
-## MacBook Development Environment Setups (OS Catalina : 10.15 & Big Sur 11.1 )
+## MacBook Development Environment Setups (OS Catalina : 10.15 & Big Sur: 11.1 )
 **Primary Installation Steps**
 
 *Xcode tools*: 
@@ -72,7 +72,7 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc[.bash_profile]
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc[.bash_profile]
 
 ```
-
+Quick Intro from [Real Python](https://realpython.com/intro-to-pyenv/)
 *Other Utilities*
 
 If you are a [Linux](https://www.linux.org/) user, you must have used `htop` for inspecting CPU usages. Well you can use the same in Mac as well.
