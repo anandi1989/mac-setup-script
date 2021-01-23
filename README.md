@@ -3,7 +3,43 @@
 
 *Xcode tools*: 
 `xcode-select —install`
+Above commands should start the reinstallation process. In case you get below messege - 
 
+`xcode-select: error; command line tools are already installed, use "Software Updates" to install updates` 
+
+Then you need to work around else you'll face issue running lot of commandline code. 
+
+**Quick Fix** 
+
+_Step 1_ 
+
+Run 
+`sudo xcode-select --reset`
+
+If this does nothing then follow next steps which works for Big Sur 11.1 
+
+_Step 2_
+
+Run 
+
+`xcode-select --print-path`
+
+then remove the path by 
+
+`sudo rm -r -f /Library/Developer/CommandLineTools`
+
+Then finally, 
+
+`xcode-selct --install` 
+
+should get you below picture - 
+
+![xcode installation ](xcode-installation-popups.png)
+
+![Downloading](installation progress.png)
+
+
+_For more info on xcode installation refer this [source]()_
 *Homebrew*: 
 
 [HomeBrew](https://brew.sh/) is an Open-Source software pakage manager. It is Very handy and essential for mac terminal to install\uninstall open source softwares 
