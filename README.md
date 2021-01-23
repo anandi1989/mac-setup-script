@@ -36,7 +36,7 @@ should get you below picture -
 
 ![xcode installation ](xcode-installation-popups.png)
 
-![Downloading](installation progress.png)
+![Downloading](installation%20progress.png)
 
 
 _For more info on xcode installation refer this [source]()_
