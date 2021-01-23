@@ -18,7 +18,7 @@ Run
 
 If this does nothing then follow next steps which works for Big Sur 11.1 
 
-_Step 2_
+_Step 2_ [This should be enough]
 
 Run 
 
@@ -39,7 +39,9 @@ should get you below picture -
 ![Downloading](installation%20progress.png)
 
 
-_For more info on xcode installation refer this [source]()_
+_For more info on xcode installation refer this [source](https://medium.com/flawless-app-stories/gyp-no-xcode-or-clt-version-detected-macos-catalina-anansewaa-38b536389e8d)_
+
+
 *Homebrew*: 
 
 [HomeBrew](https://brew.sh/) is an Open-Source software pakage manager. It is Very handy and essential for mac terminal to install\uninstall open source softwares 
